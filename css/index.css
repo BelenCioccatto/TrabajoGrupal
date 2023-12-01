@@ -1,0 +1,25 @@
+body{
+    background-color: #FBFCFC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+}
+
+h1{
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color: blue;
+}
+
+h3{
+    color: red;
+}
+
+/* en el codigo se pone class="tituloDiferente" */
+.tituloDiferente{
+    color: rgb(241, 165, 24)
+}
+
+/* otra opcion es poner id="tituloDiferente""
+y acá poner #tituloDiferente {} */

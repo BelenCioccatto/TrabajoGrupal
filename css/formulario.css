@@ -1,3 +1,55 @@
+
+/* CABECERA - MENU */
+ul{
+    background-color: rgb(230, 230, 230);
+    border-bottom: solid rgb(252, 192, 70) 8px;
+    display: flex;
+    padding: 8px;  /*ancho del fondo*/
+    margin: -8px; /*para que se pegue a los bordes de la pantalla*/
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    padding: 45px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: rgb(215, 28, 28);
+    padding: 0px;
+
+}
+
+a:hover{
+    color:rgb(77, 77, 77);
+    font-size: 21px;
+    text-decoration: none;
+}
+
+
+img{
+    margin-right: 35px;
+    margin-top: auto;
+}
+
+header{
+    margin-bottom: -16px;  /* para que se pegue la barra de navegacion con el carrusel */
+}
+
+
+/* CUERPO */
+body{
+    background-color: #FBFCFC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
 button{
     text-decoration: none;  /*le saco el azul y el subrayado que trae por defecto+*/
     color: rgb(117, 117, 5);
@@ -21,4 +73,31 @@ button a{
 button a:hover{
     color: rgb(250, 247, 247);
 
+}
+
+
+
+
+/* FOOTER */
+footer{
+    background: linear-gradient(to bottom, rgb(75, 75, 75), rgb(57, 57, 57));
+    border-top: solid rgb(252, 192, 70) 8px;
+    padding: 40px;
+    margin: -8px;
+    color: white;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+img.logoFooter{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+    
+p{
+    color: white;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }

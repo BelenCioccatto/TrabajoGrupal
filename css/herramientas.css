@@ -4,7 +4,7 @@ ul{
     border-bottom: solid rgb(252, 192, 70) 8px;
     display: flex;
     padding: 8px;  /*ancho del fondo*/
-    margin: 0px; /*para que se pegue a los bordes de la pantalla, e*/ 
+    margin: -8px; /*para que se pegue a los bordes de la pantalla, e*/ 
     justify-content: space-evenly;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -40,42 +40,15 @@ header{
     margin-bottom: -16px;  /* para que se pegue la barra de navegacion con el carrusel */
 }
 
-
 /* CUERPO */
 
 body{
     background-color: #FBFCFC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-.padre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.contenedor-imagen{
-    display: flex;
-    /*width: fit-content;  Ajusta el ancho al contenido */
-    /*height: fit-content;  Ajusta la altura al contenido */
-    /*overflow: hidden;  Oculta cualquier desbordamiento */
-    width: 360px;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.fotos-productos{
-    display: block;
-    max-width: 100%; /* Para asegurar que la imagen no se extienda más allá de su tamaño original */
-    /*height: auto;  Para mantener la proporción original de la imagen */
-
-}
-
-.fotos-productos:hover{
-    transform: scale(1.1); /* Aumenta el tamaño al 110% */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+h1{
+    text-align: center;
 }
 
 
@@ -85,10 +58,14 @@ footer{
     border-top: solid rgb(252, 192, 70) 8px;
     padding: 40px;
     margin-top: 60px;
+    margin: -8px;
     color: white;    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    position: relative;
+    position: fixed; 
+    width: 95%; 
+    left: 0;
+    bottom: 0;
 }
 
 img.logoFooter{

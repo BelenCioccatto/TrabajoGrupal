@@ -49,13 +49,18 @@ body{
 
 }
 
+h1{
+    font-size: 30px;
+}
 
+/* css de los botones hechos a mano
 button{
-    text-decoration: none;  /*le saco el azul y el subrayado que trae por defecto+*/
+    text-decoration: none;  le saco el azul y el subrayado que trae por defecto
     color: rgb(117, 117, 5);
     padding: 15px;
     margin: 10px;
 }
+
 
 button:hover{
     background: rgb(117, 117, 5);
@@ -73,7 +78,7 @@ button a{
 button a:hover{
     color: rgb(250, 247, 247);
 
-}
+} */
 
 
 

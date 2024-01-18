@@ -1,0 +1,1 @@
+Proyecto creado 100% en html y css nativo, utilizando un componente de boostrap que es el formulario de contacto. La idea es imitar la página de la empresa Easy, donde se puede ver información sobre su forma de operar, sucursales y productos. Se construyó con los conocimientos aprendidos hasta ese momento. No incluye React ni javaScript.

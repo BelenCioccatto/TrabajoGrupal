@@ -1,3 +1,5 @@
+/* CABECERA - MENU */
+
 ul{
     background-color: rgb(230, 230, 230);
     border-bottom: solid rgb(252, 192, 70) 8px;
@@ -38,76 +40,32 @@ img{
 
 /* CUERPO */
 
-.contenedor-preguntas {
-    background-color: rgba(215, 28, 28, 0.932);
-    width: 1300px; 
-    margin: 15px; /*separacion entre divs*/
-    padding: 20px; /*separacion del contenido con el borde del div*/
-}
-
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin-left: 60px;
+    text-align: center;
 }
 
-ol{
-    margin-top: 0px;
+h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 h3 {
-    color: white;
+    color: rgb(86, 86, 86);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large; 
+    text-align: center;
+    padding-bottom: 15px;
 
 }
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white
+    color: white 
 }
 
-/* puedo poner 
-h1, h4 {
-} 
-si quiero que varios tengan los mismos estilos*/
-
-/*felxbox*/
-.contenedorPadre{
-    display: flex;
-    /*flex-direction: row, row-reverse, column, column-reverse;*/
-    flex-wrap: wrap; /**/
-}
-
-.centrar-boton{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 60px;
-
-}
-
-button{
-    background-color: rgb(77, 77, 77);
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-button:hover{
-    background-color: rgb(57, 57, 57)
-}
-
-.boton{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.boton:hover{
-    color: white;
-}
- 
 
 /* FOOTER */
 footer{

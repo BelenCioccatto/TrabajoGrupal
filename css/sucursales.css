@@ -36,70 +36,50 @@ img{
     margin-top: auto;
 }
 
-
-.contenedor-preguntas {
-    background-color: rgba(215, 28, 28, 0.932);
-    width: 1300px; 
-    margin: 15px; /*separacion entre divs*/
-    padding: 20px; /*separacion del contenido con el borde del div*/
-}
-
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    margin-left: 60px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(62, 62, 62) !important;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(215, 28, 28) !important;
 }
 
 ol{
     margin-top: 0px;
 }
 
-h3 {
-    color: white;
+h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large; 
-
-}
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white
+    color: rgb(62, 62, 62) !important;
 }
 
-.contenedorPadre{
+section{
+    margin-bottom: 30px
+}
+
+.contenedor-mapas{
     display: flex;
-    /*flex-direction: row, row-reverse, column, column-reverse;*/
-    flex-wrap: wrap; /**/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    margin: -8px;  /* asi logré que se pegara a los bordes de la pantalla */
+    padding: 20px
 }
 
-.centrar-boton{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 60px;
-
-}
-
-button{
-    background-color: rgb(77, 77, 77);
+.mapa{
     padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
 }
 
-button:hover{
-    background-color: rgb(57, 57, 57)
-}
 
-.boton{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.boton:hover{
-    color: white;
-}
- 
 
 /* FOOTER */
 footer{
